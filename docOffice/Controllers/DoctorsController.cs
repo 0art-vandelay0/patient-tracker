@@ -9,7 +9,7 @@ namespace DocOffice.Controllers
 {
     public class DoctorsController : Controller
     {
-        private class readonly DocOfficeContext _db;
+        private readonly DocOfficeContext _db;
 
         public DoctorsController(DocOfficeContext db)
         {
