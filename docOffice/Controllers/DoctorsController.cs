@@ -9,6 +9,17 @@ namespace DocOffice.Controllers
 {
     public class DoctorsController : Controller
     {
+        private class readonly DocOfficeContext _db;
 
+        public DoctorsController(DocOfficeContext db)
+        {
+            _db = db;
+        }
+
+        public ActionResult Index()
+        {
+            List<Doctor> model = _db.Doctors.ToList();
+            return View(model);
+        }
     }
 }
