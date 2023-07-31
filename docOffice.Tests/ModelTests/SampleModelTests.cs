@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using docOffice.Models;
+using DocOffice.Models;
 using System.Collections.Generic;
 using System;
 
-namespace docOffice.Tests
+namespace DocOffice.Tests
 {
-    
+
 }

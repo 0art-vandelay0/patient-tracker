@@ -1,4 +1,4 @@
-# _docOffice.Solution_
+# _DocOffice.Solution_
 
 #### _Application to "insert generic description here"_
 
@@ -6,12 +6,12 @@
 
 ## Technologies Used
 
-* _C#_
-* _.NET v6.0_
-* _MSTest.TestAdapter v2.2.10_
-* _MSTest.TestFramework v2.2.10_
-* _Git_
-* _VSCode_
+-   _C#_
+-   _.NET v6.0_
+-   _MSTest.TestAdapter v2.2.10_
+-   _MSTest.TestFramework v2.2.10_
+-   _Git_
+-   _VSCode_
 
 ## Description
 
@@ -19,19 +19,19 @@ _This application uses MVC structure, RESTFul routing convention, and HTTP metho
 
 ## Setup/Installation Requirements
 
-* _Clone "docOffice.Solution“ from the repository to your desktop_
-* _Navigate to "docOffice.Solution" directory via your local terminal command line_
-* _Navigate to the production directory "docOffice"_
-* _Navigate to the docOffice folder in your terminal_
-* _Then type ***dotnet build*** in your terminal to make sure everything is up to date and there are no errors_
-* _Then launch the webpage by typing ***dotnet watch run --launch-profile "production"*** in the teminal_
-* _For issuing and trusting a security certificate, type ***dotnet dev-certs https --trust*** in the terminal and restart your browser_
-* _If you would like to run the tests, type ***dotnet restore*** in the terminal to restore the dependencies that are listed in the .csproj file_
-* _Run the tests by moving into the docOffice.Tests folder and typing ***dotnet test*** in the terminal to run tests_
+-   _Clone "DocOffice.Solution“ from the repository to your desktop_
+-   _Navigate to "DocOffice.Solution" directory via your local terminal command line_
+-   _Navigate to the production directory "DocOffice"_
+-   _Navigate to the DocOffice folder in your terminal_
+-   _Then type ***dotnet build*** in your terminal to make sure everything is up to date and there are no errors_
+-   _Then launch the webpage by typing ***dotnet watch run --launch-profile "production"*** in the teminal_
+-   _For issuing and trusting a security certificate, type ***dotnet dev-certs https --trust*** in the terminal and restart your browser_
+-   _If you would like to run the tests, type ***dotnet restore*** in the terminal to restore the dependencies that are listed in the .csproj file_
+-   _Run the tests by moving into the DocOffice.Tests folder and typing ***dotnet test*** in the terminal to run tests_
 
 ## Known Bugs
 
-* _No known bugs as of 00/00/23_
+-   _No known bugs as of 00/00/23_
 
 ## License
 
@@ -57,4 +57,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: YOUR EMAIL HERE.  Contributions to the code are highly encouraged._
+_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: YOUR EMAIL HERE. Contributions to the code are highly encouraged._

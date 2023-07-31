@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using System;
 using Microsoft.AspNetCore.Mvc;
-using docOffice.Models;
+using DocOffice.Models;
 
-namespace docOffice.Controllers
+namespace DocOffice.Controllers
 {
-    public class docOffice : Controller
+    public class DocOffice : Controller
     {
+
     }
 }

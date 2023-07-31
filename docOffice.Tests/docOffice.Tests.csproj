@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\docOffice\docOffice.csproj" />  
+        <ProjectReference Include="..\DocOffice\DocOffice.csproj" />  
     </ItemGroup>
 
 </Project>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "docOffice.Tests", "docOffice.Tests\docOffice.Tests.csproj", "{C8CB3E71-E07B-4EE3-A0AD-5EB89CDA9AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocOffice.Tests", "DocOffice.Tests\DocOffice.Tests.csproj", "{C8CB3E71-E07B-4EE3-A0AD-5EB89CDA9AB7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "docOffice", "docOffice\docOffice.csproj", "{6FC51D3E-3CA5-4830-897F-575E60CB96FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocOffice", "DocOffice\DocOffice.csproj", "{6FC51D3E-3CA5-4830-897F-575E60CB96FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
