@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using DocOffice.Models;
 
 namespace DocOffice
 {
@@ -10,6 +12,14 @@ namespace DocOffice
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<DocOfficeContext>(
+                dbContextOptions => dbContextOptions
+                    .UseMySql(
+                        builder.Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:DefaultConnection"]
+                        )
+                    )
+            );
 
             WebApplication app = builder.Build();
 
