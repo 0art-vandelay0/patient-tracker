@@ -21,5 +21,11 @@ namespace DocOffice.Controllers
             List<Doctor> model = _db.Doctors.ToList();
             return View(model);
         }
+
+        public ActionResult Details(int id)
+        {
+            Doctor thisDoctor = _db.Doctors.FirstOrDefault(doctor => doctor.DoctorId == id);
+            return View(thisDoctor);
+        }
     }
 }
