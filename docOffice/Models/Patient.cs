@@ -3,9 +3,9 @@ using MySqlConnector;
 
 namespace DocOffice.Models
 {
-    public class Doctor
+    public class Patient
     {
-        public int DoctorId { get; set; }
+        public int PatientId { get; set; }
         public string Name { get; set; }
     }
 }
