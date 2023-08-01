@@ -14,9 +14,9 @@ else
         <ul>
         @foreach (Doctor doctor in @Model)
         {
-                    <li>
-                @Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.Id })
-                    </li>
+        <li>
+            @Html.ActionLink($"{doctor.Name}", "Details", new { id = doctor.DoctorId })
+        </li>
         }
         </ul>
 }
